@@ -2,7 +2,7 @@
 
 lista 5
 
-4 - Escreva uma função que ordena um vetor com 20 números.
+4 - Escreva uma funÃ§Ã£o que ordena um vetor com 20 nÃºmeros.
 Dica: Pesquisar por Bubble Sort
 
 */
@@ -13,18 +13,18 @@ programa{
   
   funcao inicio(){
       
-    inteiro i,j,copia,troca=0,vet=5,vetor[50] //valor inserido na variável vet define a quantidade de espaços usados do vetor
+    inteiro i,j,copia,vet=20,vetor[50] //valor inserido na variÃ¡vel vet define a quantidade de espaÃ§os usados do vetor
 
-    para(i=0;i<vet;i++){ //Para o "Bubbe Sort" está sendo usada uma biblioteca para gerar os valores.
+    para(i=0;i<vet;i++){ //Para o "Bubbe Sort" estÃ¡ sendo usada uma biblioteca para gerar os valores.
       vetor[i]=Util.sorteia(1,100)
     }
 
-    escreva("Números gerados: ") //Escrevendo os números gerados aleatóriamente fora em ordem.
+    escreva("NÃºmeros gerados: ") //Escrevendo os nÃºmeros gerados aleatÃ³riamente fora em ordem.
     para(i=0;i<vet;i++){
       escreva(vetor[i]," ")
     }
 
-    //Bloco para fazer a ordenação dos valores.
+    //Bloco para fazer a ordenaÃ§Ã£o dos valores.
     para(j=1;j<=vet;j++){
       para(i=0;i<vet-1;i++){
         se(vetor[i]>vetor[i+1]){
@@ -36,10 +36,21 @@ programa{
     }
     
  escreva("\n")
- escreva("Números em Ordem: ") //Escrevendo os valores após a ordenação.
+ escreva("NÃºmeros em Ordem: ") //Escrevendo os valores apÃ³s a ordenaÃ§Ã£o.
     para(i=0;i<vet;i++){
       escreva(vetor[i]," ")
     }
     
   }
 }
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 195; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
