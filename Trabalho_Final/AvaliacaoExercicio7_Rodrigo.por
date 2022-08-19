@@ -1,8 +1,9 @@
 /*
  * Avaliação Exercicio - Rodrigo
-8. Elabora um programa que peça ao usuário que entre com 10 números. Após solicite que o usuário 
-escolha se quer que sejam impressos os números em ordem crescente ou decrescente e conforme 
-a escolha do usuário e faça a impressão da série.
+7. Elabora um programa que solicita ao usuário a quantidade de números primos que ele quer que
+seja impresso. Após imprima na tela a quantidade de números primos escolhida. 
+Ex. Entrada 4
+Saída 1 2 3 5
 */
 programa
 {
@@ -57,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 35; 
+ * @POSICAO-CURSOR = 210; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
