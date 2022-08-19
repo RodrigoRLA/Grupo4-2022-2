@@ -1,4 +1,5 @@
 /*
+  Lista 5
   
 2 - Escreva um programa que armazene X números em um vetor e calcule o valor 
 médio do vetor. 
@@ -12,7 +13,7 @@ programa
 		
 	funcao inicio()
 	{
-		escreva("Digite um numero entre 1 e 10: \n")
+		escreva("Digite cinco numeros entre 1 e 10: \n")
 		
 		para (inteiro i = 0; i < 5; i++)
 		{
@@ -44,9 +45,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 385; 
+ * @POSICAO-CURSOR = 210; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {vetorNumero, 10, 9, 11};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
