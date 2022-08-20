@@ -1,3 +1,11 @@
+/*
+ * Avaliação Exercicio - Rodrigo
+8. Elabora um programa que peça ao usuário que entre com 10 números. Após solicite que o usuário 
+escolha se quer que sejam impressos os números em ordem crescente ou decrescente e conforme 
+a escolha do usuário e faça a impressão da série.
+
+ */
+
 programa
 {
 	
@@ -78,9 +86,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1470; 
+ * @POSICAO-CURSOR = 35; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {vetorNumeros, 6, 10, 12}-{i, 7, 10, 1}-{auxiliar, 7, 26, 8}-{trocou, 7, 36, 6}-{decisao, 8, 11, 7};
+ * @SIMBOLOS-INSPECIONADOS = {vetorNumeros, 14, 10, 12}-{i, 15, 10, 1}-{auxiliar, 15, 26, 8}-{trocou, 15, 36, 6}-{decisao, 16, 11, 7};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
